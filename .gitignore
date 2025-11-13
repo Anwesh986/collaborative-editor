@@ -1,0 +1,38 @@
+# Backend
+Backend/target/
+Backend/.mvn/
+Backend/mvnw
+Backend/mvnw.cmd
+Backend/HELP.md
+*.log
+*.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Frontend
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.angular/
+Frontend/.vscode/
+Frontend/.idea/
+Frontend/*.log
+Frontend/.env
+Frontend/.env.local
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Database
+*.db
+*.sqlite
+h2/
