@@ -18,7 +18,6 @@ public class CodeExecutionController {
     @PostMapping("/execute")
     public ResponseEntity<CodeExecutionResponse> executeCode(@RequestBody CodeExecutionRequest request) {
         try {
-            // Validate request
             if (request.getCode() == null || request.getCode().trim().isEmpty()) {
                 return ResponseEntity.badRequest()
                     .body(CodeExecutionResponse.error("Code cannot be empty", 0));
